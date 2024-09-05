@@ -5,6 +5,7 @@ import N from '../src/Components/image/N.png'
 import p from '../src/Components/image/p.jpg'
 import a from '../src/Components/image/a.jpg'
 import l from '../src/Components/image/l.jpeg'
+import smd from '../src/smd.jpg'
 const Info = {
     name: "Kirti Pandey",
     stack: ["Software Engineer", "Frontend Developer"],
@@ -78,6 +79,7 @@ const SkillInfo = [
 ]
 const socialLinks = [
     { link: "https://www.linkedin.com/in/kirti-pandey-b0066124a/", icon: IconBrandLinkedin },
+    { link: "https://github.com/pkirti497", icon: IconBrandGithub },
     
 ];
 
@@ -107,6 +109,30 @@ const ExperienceInfo = [
         skills: ["Html", "Css", "React", "Bootstrap", "Javascript", "Core Java", "Php", "MySql"],
          logo:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc6EA-x17wZh_loTowWIrQVPlOczAOO6y5Gw&s"
     }
+]
+const EducationInfo = [
+    {
+        role: "Government girls polytechnic risiya nanpara Bahraich",
+        company: "Diploma",
+        date: "2019-2022",
+        desc: "Grade:(A) 83% First division with honours",
+        // skills: [""],
+         logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGoU7GDrSVpiHaSXZIk8xWMSBCFBV51bkUjw&s"
+    },
+    {
+        role: "Sant Mauni Daas Inter Collage Vishunpur Hari Siddharth Nagar",
+        company: "Inter Mediate ",
+        date: "2018 - 2019",
+        desc: "Grade:(A) 75% First division",
+        logo:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS015YTUVLx7uPlifbJWY7yHPLZ9SP7ue-fGQ&s"
+    },
+    {
+        role: "Sant Mauni Daas Inter Collage Vishunpur Hari Siddharth Nagar",
+        company: "High School",
+        date: "2016 - 2017",
+        desc: "Grade:(A) 89.16% District Topper",
+        logo:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS015YTUVLx7uPlifbJWY7yHPLZ9SP7ue-fGQ&s"
+    },
 ]
 const Slugs = [
     "typescript",
@@ -146,4 +172,4 @@ const Slugs = [
     "sonarqube",
     "figma",
 ];
-export { Info, ProjectInfo,socialLinks, SkillInfo, ExperienceInfo, Slugs };
+export { Info, ProjectInfo,socialLinks, SkillInfo, ExperienceInfo,EducationInfo, Slugs };
